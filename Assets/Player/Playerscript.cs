@@ -22,6 +22,9 @@ public class Playerscript : MonoBehaviour
 
     Animator anim;
 
+    HelperScript helper;
+
+
     void Start()
     {
         moveAction = InputSystem.actions.FindAction("Move");
@@ -34,6 +37,8 @@ public class Playerscript : MonoBehaviour
 
         isGrounded = false;
         groundLayerMask = LayerMask.GetMask("Ground");
+
+        helper = gameObject.AddComponent<HelperScript>();
     }
 
     void Update()
@@ -111,6 +116,16 @@ public class Playerscript : MonoBehaviour
         else
         {
             anim.SetBool("crouch", false);
+        }
+
+        if (Keyboard.current.fKey.wasPressedThisFrame)
+        {
+            helper.FlipSprite(true);
+        }
+
+        if (Keyboard.current.pKey.wasPressedThisFrame)
+        {
+            helper.DestroyObject();
         }
     }
 
