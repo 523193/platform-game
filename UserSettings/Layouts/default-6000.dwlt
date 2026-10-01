@@ -276,7 +276,11 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 168}
   m_MaxSize: {x: 16192, y: 24288}
   vertical: 1
+<<<<<<< HEAD
   controlID: 36
+=======
+  controlID: 55
+>>>>>>> 28c0931052ae56a6e482a6d3df4b984bcf7548cb
   draggingID: 0
 --- !u!114 &12
 MonoBehaviour:
@@ -374,7 +378,11 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_LastSelectedObjectID:
+<<<<<<< HEAD
     m_rawData: 568105584918844198
+=======
+    m_rawData: 568105584918865004
+>>>>>>> 28c0931052ae56a6e482a6d3df4b984bcf7548cb
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -706,13 +714,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Year 1\kaelan Mantel (kae)\unity projects\platform-game
+  m_LastProjectPath: D:\Year 1\kae mantel\unity project\platform-game
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
     m_SelectedIDs:
+<<<<<<< HEAD
     - m_rawData: 568105584918844122
     m_LastClickedID:
       m_rawData: 568105584918844122
@@ -720,6 +729,15 @@ MonoBehaviour:
     - m_rawData: 568105589213755494
     - m_rawData: 0
     - m_rawData: 568105584918843826
+=======
+    - m_rawData: 568105584918857196
+    m_LastClickedID:
+      m_rawData: 568105584918857196
+    m_ExpandedIDs:
+    - m_rawData: 568105589213692176
+    - m_rawData: 0
+    - m_rawData: 568105584918854100
+>>>>>>> 28c0931052ae56a6e482a6d3df4b984bcf7548cb
     - m_rawData: 568105587066273791
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -783,9 +801,15 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
+<<<<<<< HEAD
     - m_rawData: 568105584918844198
     m_LastClickedEntityId:
       m_rawData: 568105584918844198
+=======
+    - m_rawData: 568105584918865004
+    m_LastClickedEntityId:
+      m_rawData: 568105584918865004
+>>>>>>> 28c0931052ae56a6e482a6d3df4b984bcf7548cb
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs:
     - m_rawData: 568105584918858688
@@ -923,12 +947,21 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs:
+<<<<<<< HEAD
       - m_rawData: 568105584918844198
       m_LastClickedID:
         m_rawData: 0
       m_ExpandedIDs:
       - m_rawData: 568105589213755408
       - m_rawData: 568105589213757368
+=======
+      - m_rawData: 568105584918865004
+      m_LastClickedID:
+        m_rawData: 568105584918865004
+      m_ExpandedIDs:
+      - m_rawData: 568105589213691718
+      - m_rawData: 568105589213757350
+>>>>>>> 28c0931052ae56a6e482a6d3df4b984bcf7548cb
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1468,9 +1501,15 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: -4.655671, y: -0.5372542, z: -4.176104}
     speed: 2
     m_Value: {x: -4.655671, y: -0.5372542, z: -4.176104}
+=======
+    m_Target: {x: -6.4268594, y: -2.6483886, z: -4.151799}
+    speed: 2
+    m_Value: {x: -6.4025517, y: -2.6676672, z: -4.1480355}
+>>>>>>> 28c0931052ae56a6e482a6d3df4b984bcf7548cb
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1521,9 +1560,15 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< HEAD
     m_Target: 11.17026
     speed: 2
     m_Value: 11.17026
+=======
+    m_Target: 8.739701
+    speed: 2
+    m_Value: 8.363351
+>>>>>>> 28c0931052ae56a6e482a6d3df4b984bcf7548cb
   m_Ortho:
     m_Target: 1
     speed: 2
