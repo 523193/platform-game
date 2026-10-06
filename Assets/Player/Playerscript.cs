@@ -233,21 +233,12 @@ public class Playerscript : MonoBehaviour
 
         bool hitSomething = false;
 
-        Vector3 offset = new Vector3(
-            xoffs,
-            yoffs,
-            0
-        );
+        Vector3 offset = new Vector3(xoffs,yoffs,0);
 
 
-        RaycastHit2D hit = Physics2D.Raycast(
-            transform.position + offset,
-            Vector2.down,
-            rayLength,
-            groundLayerMask
-        );
-
-
+        RaycastHit2D hit = Physics2D.Raycast(transform.position + offset, Vector2.down, rayLength, groundLayerMask);
+                                        
+        
         Color hitColor = Color.red;
 
 
@@ -273,10 +264,7 @@ public class Playerscript : MonoBehaviour
 
     void Jump()
     {
-        rb.linearVelocity = new Vector2(
-            rb.linearVelocity.x,
-            7
-        );
+        rb.linearVelocityY = 7;
 
         isGrounded = false;
     }
